@@ -45,6 +45,7 @@ h1 {
 
 /* Main content*/
 main{
+    margin-top: 47px;
     background-color: lightblue;
     /* Make main element take up any surplus space to push footer down
     */
