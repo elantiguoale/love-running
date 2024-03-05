@@ -43,14 +43,8 @@ h1 {
     color:#252525
 }
 
-/* Main content*/
-main{
-    background-color: lightblue;
-    /* Make main element take up any surplus space to push footer down
-    */
-    flex: 1 0 auto;
-    margin-top: 47px;
-}
+
+
 
 #menu{
     font-size: 110%;
@@ -75,7 +69,6 @@ nav{
     display: none;
     top:100%;
 }
-
 /* Nav Toggle */
 #nav-toggle:checked~nav{
     display: block;
@@ -86,6 +79,20 @@ nav{
 
 .nav-toggle-label{
     font-size:2rem;
+}
+/* Main content*/
+main{
+    /* Make main element take up any surplus space to push footer down
+    */
+    flex: 1 0 auto;
+    margin-top: 47px;
+}
+/*Hero Section*/
+#hero{
+    height: 600px;
+    width: 100%;
+    background: url("../css/images/hero-image.png") no-repeat center center/cover;
+    
 }
 /*Footer */
 #social-networks{
